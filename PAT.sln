@@ -7,6 +7,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "A+B_Format", "A+B_Format\A+
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "A+B_for_Polynomials", "A+B_for_Polynomials\A+B_for_Polynomials.vcxproj", "{1AF1BEE0-CEA2-4DE9-BD9F-CFD22D336088}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OnlineJudge", "OnlineJudge", "{ACE10CB9-FE31-4730-8126-C3318E757E1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStructure", "DataStructure", "{BB255F7A-63A3-47C0-8D2F-6D146EBA674B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algorithm", "Algorithm", "{B9299A61-F3E6-4C1B-8649-E47B51338557}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -34,6 +40,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8766C427-CC5A-45CF-9E9C-725171D87CDE} = {ACE10CB9-FE31-4730-8126-C3318E757E1A}
+		{1AF1BEE0-CEA2-4DE9-BD9F-CFD22D336088} = {ACE10CB9-FE31-4730-8126-C3318E757E1A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {91DCDC94-2ACF-4FDE-A815-C775C3EB05D4}
